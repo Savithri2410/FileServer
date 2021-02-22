@@ -1,0 +1,1 @@
+cat * | tr -s ' ' '\n' | sort | uniq -c | sort -n | tail -n 10;
